@@ -1,0 +1,93 @@
+
+.Header{
+    font-size: 1.8rem;
+    padding: 2rem 4rem;
+    background: #F85C70;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.Header:hover{
+    background: #fc3c3c;
+    cursor: pointer;
+}
+
+/* Category */
+
+.Category{
+    text-align: center;
+}
+
+.Category button{
+    /* margin: 0 auto; */
+    font-size: 2.8rem;
+    background: #F85C70;
+    color: #fff;
+    padding: 2rem 4rem;
+    outline: none;
+    border: none;
+    margin-top: 5rem;
+    /* margin-bottom: 5rem; */
+}
+
+.Category button:hover{
+    background: #fc3c3c;
+    cursor: pointer;
+}
+
+
+
+
+/* Form */
+.Form{
+
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    padding: 2rem 4rem;
+    background: #F85C70;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+}
+
+.Form:hover{
+    background: #fc3c3c;
+    cursor: pointer;
+}
+
+
+/* SearchForm */
+
+.SearchForm{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    padding: 2rem 4rem;
+    background: #F85C70;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 80%;
+    text-align: center;
+}
+
+.SearchForm:hover{
+    background: #fc3c3c;
+    cursor: pointer;
+}
+
+
+
+
+/* Mobile */
+@media only screen and (max-width : 480px){
+
+    
+
+
+}

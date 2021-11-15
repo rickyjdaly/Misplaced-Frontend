@@ -1,0 +1,27 @@
+.Header{
+    min-height: 72vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../../header.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+
+}
+
+.Form{
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, 0);
+    width: 50%;
+    
+}
+
+/* Mobile */
+@media only screen and (max-width : 480px){
+    .Form{
+        width: 80%;
+    }
+}

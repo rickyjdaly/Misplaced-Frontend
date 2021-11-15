@@ -1,0 +1,175 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: crimson; */
+    width: 100%;
+    height: 6rem;
+    box-shadow: 0px 2px 4px #F85C70;
+    position: fixed;
+    color: #F85C70;
+    background: #fff;
+    z-index: 600;
+    padding: 0 30px;
+}
+
+.Logo{
+    padding-left: 1rem ;
+    text-transform: uppercase;
+    /* font-size: 1.4rem; */
+
+}
+
+.Logo:hover{
+    cursor: pointer;
+    color: #fc3c3c;
+    font-weight: 800;
+}
+
+.Links{
+    display: flex;
+    padding-right: 1rem;
+    align-items: center;
+    
+}
+
+.Link{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Link:hover{
+    cursor: pointer;
+    color: #fc3c3c;
+    /* font-weight: 800; */
+}
+
+.Button{
+    padding: 0.5rem 2rem;
+    background: #F85C70;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    /* font-size: 1.25rem; */
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button:hover{
+    background: #fc3c3c;
+    cursor: pointer;
+}
+
+.Post{
+    /* color: black; */
+    font-size: 1.4rem;
+    /* color: green ; */
+}
+
+.Links i{
+    font-size: 1.6rem;
+    padding: 0;
+}
+
+.Link:not(:last-child){
+    margin-right: 3rem;
+}
+
+.MobileLinks{
+    display: none;
+}
+
+.MobileLink{
+    display: none;
+}
+
+
+/* Mobile */
+@media only screen and (max-width : 480px){
+    .Link{
+        display: none;
+    }
+
+    .Links{
+        display: none;
+    }
+
+    .MobileLinks{
+        display: flex;
+        display: flex;
+        padding-right: 1rem;
+        align-items: center;
+        /* color: black */
+    }
+    .MobileLink{
+        display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+
+    .MobileButton{
+        background-color: #F85C70;
+        color: #fff;
+        border: 2px solid #F85C70;
+        border-radius: 6px;
+        outline: none;
+    }
+
+
+    .NavDropdown{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        /* background: crimson; */
+        width: 100%;
+        height: 50%;
+        box-shadow: 0px 2px 4px #F85C70;
+        position: fixed;
+        color: #F85C70;
+        background: #fff;
+        z-index: 150;
+    }
+
+    .NavDropdownHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background: crimson; */
+        width: 100%;
+        height: 6rem;
+        /* box-shadow: 0px 2px 4px #F85C70; */
+        position: fixed;
+        color: #F85C70;
+        background: #fff;
+        z-index: 150;
+    }
+
+    .NavDropdownLinks{
+        color: red;
+        z-index: 160;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 9rem;
+        /* width: 100%; */
+        text-align: center;
+        /* align-items: center; */
+        margin: 0 auto;
+        transform: translate(-25%, 0);
+        padding-bottom: 3rem;
+
+    }
+
+    .NavDropdownLinks{
+        font-size: 18px;
+    }
+
+
+}

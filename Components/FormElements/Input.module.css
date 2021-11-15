@@ -1,0 +1,277 @@
+.Container{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.Container i{
+    position: absolute;
+    font-size: 1.8rem;
+    color: #999;
+    top: 2rem;
+    left: 2rem
+}
+
+.Input{
+    font-size: 1.6rem;
+    padding: 2rem 5rem;
+    margin-bottom: 1.6rem;
+    color: #333;
+    width: 100%;
+}
+
+.Input::placeholder{
+    color: #999;
+    font-family: FontAwesome, Arial, Helvetica, sans-serif;
+}
+
+
+/* Form */
+
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.FormContainer p{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0.8rem !important;
+    padding-bottom: 1.6rem !important;
+    font-size: 1.6rem;
+    
+}
+
+.FormContainer input{
+    padding: 0;
+    margin: 0;
+    font-size: 2.4rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999;
+}
+/* Textarea */
+
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.FormContainer p{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0.8rem !important;
+    padding-bottom: 1.6rem !important;
+    font-size: 1.6rem;
+    
+}
+
+.FormContainer textarea{
+    padding: 0;
+    margin: 0;
+    font-size: 2.4rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999;
+    resize: none;
+    font-family: inherit;
+}
+/* Modal */
+
+.ModalContainer{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.ModalContainer p{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 2rem !important;
+    padding-bottom: 1.6rem !important;
+    font-size: 1.6rem;
+    
+}
+
+.ModalContainer input{
+    padding: 0;
+    margin: 0 5%;
+    font-size: 2.4rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999;
+}
+
+/* Search */
+
+.SearchContainer{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.SearchContainer p{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0.8rem !important;
+    padding-bottom: .6rem !important;
+    padding-left: 2rem !important;
+    font-size: 1.6rem;
+    
+    
+}
+
+.SearchContainer input{
+    padding: 0;
+    margin: 0 auto;
+    /* font-size: 2.4rem; */
+    padding: 1rem 2rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999;
+}
+
+.SearchInput{
+    font-size: 1.6rem;
+    padding: 2rem 5rem;
+    margin-bottom: 1.6rem;
+    color: #333;
+    width: 80%;
+}
+
+.SearchInput::placeholder{
+    color: #999;
+    font-family: FontAwesome, Arial, Helvetica, sans-serif;
+}
+/* Search Dropdown*/
+
+.SearchDropdownContainer{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.SearchDropdownContainer p{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0.8rem !important;
+    padding-bottom: .6rem !important;
+    padding-left: 2rem !important;
+    font-size: 1.6rem;
+    
+    
+}
+
+.SearchDropdownContainer select{
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    /* font-size: 2.4rem; */
+    padding: 1rem 2rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999;
+    font-size: 1.6rem;
+
+    -webkit-appearance:none;
+    -moz-appearance:none !important;
+}
+
+.SearchDropdownInput{
+    font-size: 1.6rem;
+    padding: 2rem 5rem;
+    margin-bottom: 1.6rem;
+    color: #333;
+    width: 80%;
+}
+
+.SearchDropdownInput::placeholder{
+    color: #999;
+    font-family: FontAwesome, Arial, Helvetica, sans-serif;
+}
+
+
+/* SelectInput */
+.SelectContainer{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.SelectContainer p{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0.8rem !important;
+    padding-bottom: 1.6rem !important;
+    font-size: 1.6rem;
+    
+}
+
+.SelectContainer select{
+    padding: 0;
+    margin: 0;
+    font-size: 2.4rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999;
+
+    -webkit-appearance:none;
+    -moz-appearance:none !important;
+}
+
+
+/* Header Dropdown */
+.HeaderDropdown{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderDropdown i{
+    position: absolute;
+    font-size: 1.8rem;
+    color: #999;
+    top: 25%;
+    left: 2rem;
+    margin-right: 2rem;
+
+    /* top: 2rem;
+    left: 2rem; */
+}
+
+.HeaderDropdown select{
+    padding: 0;
+    margin: 0;
+    font-size: 2.4rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1.6rem;
+    padding-left: 4rem;
+    border-radius: 0.6rem;
+    border: 1px solid #999;
+
+    padding-left: 5rem;
+
+    -webkit-appearance:none;
+    -moz-appearance:none !important;
+}
+

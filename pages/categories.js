@@ -2,17 +2,14 @@ import React from 'react';
 
 import Head from 'next/head';
 
-
 import Navbar from '../Components/Navbar/Navbar';
-import Header from '../Components/Header/Header';
+// import Header from '../Components/Header/Header';
 import Backdrop from '../Components/Backdrop/Backdrop';
 import CategoryContainer from '../Containers/CategoryContainer/CategoryContainer';
 import Title from '../Components/Title/Title';
-import Button from '../Components/Buttons/Button';
-import AdvertContainer from '../Containers/AdvertContainer/AdvertContainer';
-import Footer from '../Components/Footer/Footer';
 
-const Home = () => {
+
+const Categories = () => {
   return ( 
     <>
       <Head>
@@ -24,23 +21,16 @@ const Home = () => {
         />
       </Head>
       <Navbar />
-      <Header />
+      
       <Backdrop elType='White'>
-        <Title title='Popular Categories' />
-        <CategoryContainer elType='short'/>
-        <Button elType='Category'/>
+        <Title title='Categories' />
+        <CategoryContainer elType='full'/>
+        
       </Backdrop>
-
-      <Backdrop elType='Grey'>
-        <Title title='Recent Uploads' />
-        <AdvertContainer />
-        <Button elType='Advert'/>
-      </Backdrop>
-
-      <Footer />
+      
       
     </>
    );
 }
  
-export default Home;
+export default Categories;

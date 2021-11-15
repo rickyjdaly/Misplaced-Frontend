@@ -1,0 +1,87 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* min-height: 100vh; */
+    justify-content: center;
+}
+
+.FormContainer{
+    /* flex: 2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 10vh;
+
+    background: linear-gradient(to right bottom, rgb(233, 78, 194),rgb(248, 92, 112) );
+    
+}
+
+.ContactDetails{
+    /* flex: 2; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 60px;
+    
+
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.ContactForm{
+    border: 2px solid #F85C70;
+    background: #fff;
+    padding: 5rem;
+    height: auto;
+    border-radius: 6px;
+}
+
+.ContactFormTop{
+    display: flex;
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width : 480px){
+
+    .ContactDetails{
+        width: 100%;
+        
+    }
+
+    .FormContainer{
+        /* flex: 2; */
+        /* width: 80%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-top: 10vh;
+    
+        background: linear-gradient(to right bottom, rgb(233, 78, 194),rgb(248, 92, 112) );
+        
+    }
+
+    .ContactFormTop{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ContactForm{
+        border: 2px solid #F85C70;
+        background: #fff;
+        /* padding: 5rem; */
+        /* height: auto; */
+        border-radius: 6px;
+
+        width: 100%;
+    }
+    
+}

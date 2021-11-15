@@ -1,0 +1,19 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: start;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+
+/* Mobile */
+@media only screen and (max-width : 480px){
+    .Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

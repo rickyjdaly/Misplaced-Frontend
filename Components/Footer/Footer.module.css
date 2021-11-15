@@ -1,0 +1,44 @@
+.Footer{
+    height: 40vh;
+    width: 100%;
+    background: #222;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.FooterLinks{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8rem;
+    /* color: #eaeaea; */
+    color: #ddd;
+}
+
+.FooterLink:hover{
+    cursor: pointer;
+    color: #F85C70;
+}
+
+
+.Copy{
+    margin-top: 8rem;
+    font-size: 3rem;
+    color: #F85C70;
+}
+
+
+/* Mobile */
+@media only screen and (max-width : 480px){
+    .FooterLinks{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}

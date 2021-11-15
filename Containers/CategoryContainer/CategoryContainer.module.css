@@ -1,0 +1,15 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Mobile */
+@media only screen and (max-width : 480px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
