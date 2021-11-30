@@ -87,6 +87,7 @@ const GalleryContainer = (props) => {
                         description={getAdverts.description}
                         image={getAdverts.image}
                         price={getAdverts.price}
+                        contact={getAdverts.contact}
                         town={getAdverts.town}
                         county={getAdverts.county}
                         type={getAdverts.type}
